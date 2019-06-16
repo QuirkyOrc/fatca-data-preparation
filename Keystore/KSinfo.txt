@@ -1,0 +1,9 @@
+
+
+
+Keystore mykeystore.p12 
+password: password
+	
+Alias: myp12key
+	
+key password: password

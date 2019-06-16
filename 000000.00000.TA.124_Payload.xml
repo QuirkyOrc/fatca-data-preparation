@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><Reference URI="#FATCA"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>psVt7tiDgvrHKNFOBn8G99lnvQFVIo6QaYiQpyXpZvc=</DigestValue></Reference></SignedInfo><SignatureValue>JXkw7NhHgLp8tk19gAlBgc5qwJcfwhg3cTHbtUZQQ60ZYqrFKtJN08Bpmw9NHWD4IMIP+TFP9j4YxXhXJaM4erUiV3O1X6eHGkz9D9EfdOiyhfy7x/fQZaHrS4ywHC1LJaTbHlCOzztKlRqXEAqwclEQHx2ZPhobVr1l203W95vIFjX8nLxs4PZQSPJ9tkYLQRBWTlVoPy31XNAdwaPaa9Z7e5bl75fI1qsJWDOeJtOjy5wyFUir2zLHcp3/jL1VbJqF+pFV/RMvTvwsvs6RJgvkelI4Bn8mfgaM4/lfr99VJUmvqfXmOXkYziHZVqIPUCt5d5pnTmI3VQHW2kBOVQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=sender,OU=sender,O=sender,L=sender,ST=sender,C=US</X509SubjectName><X509Certificate>MIIDYzCCAkugAwIBAgIEcOmxTTANBgkqhkiG9w0BAQsFADBiMQswCQYDVQQGEwJVUzEPMA0GA1UECBMGc2VuZGVyMQ8wDQYDVQQHEwZzZW5kZXIxDzANBgNVBAoTBnNlbmRlcjEPMA0GA1UECxMGc2VuZGVyMQ8wDQYDVQQDEwZzZW5kZXIwHhcNMTUwMzA0MjE1NTMxWhcNMTYwMjI3MjE1NTMxWjBiMQswCQYDVQQGEwJVUzEPMA0GA1UECBMGc2VuZGVyMQ8wDQYDVQQHEwZzZW5kZXIxDzANBgNVBAoTBnNlbmRlcjEPMA0GA1UECxMGc2VuZGVyMQ8wDQYDVQQDEwZzZW5kZXIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCMYEXT/0HF/aAevgyBnAkOfWVrXZ5MKylPnnze6zqG76Z3EyopUAtfKRP2mkC+Vre9BZ/DmIomdi7mSjJx5qtGZYaMrLt03urb3CmRtEHh81ZZEvNdE+jGwbHs5wqlyiFe2QV05bhzB3HG1skFAx84H1iAfHkH9+QqlFP6ROKRiavzC715Vv4GRp61s5BkIIvSZaAhL1kdEo6jFl3ncD6f+yOEv/FPjYFAoqWFWgru4bm023lekT1RxBEI6AJrY9uorB3C4W/F5vtTr0MJpzoE4phwqrCx45D8/wX0CYJIhz7rqF9I0lJNHwRS+28QVer2c9mxmlH10zTCQ3zJleJJAgMBAAGjITAfMB0GA1UdDgQWBBRP7KjkbynqYIUs1K0STOZOUojiCTANBgkqhkiG9w0BAQsFAAOCAQEAWVy+4EVguSXSnryhaT9qCRoo1EcXxEuVTe8iviOyxGELLfa0ngEY9WcD95To8aTePcOkwqqRMcVC72VK2gnw/dmNDfSIpJT2sTpuziM6aJEuQy0ol2UlKMKgw7b/pAjzNBvoOoegnb1UX2o6a7hrGy1l40baBaB78Zsoo9WWzBPTQGTo3m6qGVGv1wmgPBzx79zJdteK12tHONc9QaCew6EhzyhKIUVIcfVD0p+8MMKkl0d3bKi3UybeEVvLsdlCygaeznktX2lOoWYbPZdFhQ5/TlUtAciC/ZD+fp/w4EZ+uAWmDrV5BQWOSP1gosXWHsgQaD/3Wc1LR/6Iu7ifgg==</X509Certificate></X509Data></KeyInfo><Object Id="FATCA"><ftc:FATCA_OECD xmlns="urn:oecd:ties:fatca:v1" xmlns:ftc="urn:oecd:ties:fatca:v1" xmlns:iso="urn:oecd:ties:isofatcatypes:v1" xmlns:sfa="urn:oecd:ties:stffatcatypes:v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1">
+	<ftc:MessageSpec>
+		<sfa:SendingCompanyIN>000000.00000.TA.124</sfa:SendingCompanyIN>
+		<sfa:TransmittingCountry>CA</sfa:TransmittingCountry>
+		<sfa:ReceivingCountry>US</sfa:ReceivingCountry>
+		<sfa:MessageType>FATCA</sfa:MessageType>
+		<sfa:Warning/>
+		<sfa:Contact/>
+		<sfa:MessageRefId>a1aa421f-3820-4e09-8853-251465b6fe9a</sfa:MessageRefId>
+		<sfa:ReportingPeriod>2014-12-31</sfa:ReportingPeriod>
+		<sfa:Timestamp>2015-01-04T09:20:20</sfa:Timestamp>
+	</ftc:MessageSpec>
+	<ftc:FATCA>
+		<ftc:ReportingFI>
+			<sfa:ResCountryCode>CA</sfa:ResCountryCode>
+			<sfa:TIN issuedBy="US">123456789</sfa:TIN>
+			<sfa:Name>Org Name</sfa:Name>
+			<sfa:Address>
+				<sfa:CountryCode>US</sfa:CountryCode>
+				<sfa:AddressFix>
+					<sfa:Street>123 Street</sfa:Street>
+					<sfa:BuildingIdentifier/>
+					<sfa:SuiteIdentifier/>
+					<sfa:FloorIdentifier/>
+					<sfa:DistrictName/>
+					<sfa:POB/>
+					<sfa:PostCode>75244</sfa:PostCode>
+					<sfa:City>City</sfa:City>
+					<sfa:CountrySubentity>US</sfa:CountrySubentity>
+				</sfa:AddressFix>
+				<sfa:AddressFree>123 Address City, State, Zip, Country</sfa:AddressFree>
+			</sfa:Address>
+			<ftc:DocSpec>
+				<ftc:DocTypeIndic>FATCA11</ftc:DocTypeIndic>
+				<ftc:DocRefId>Ref ID123</ftc:DocRefId>
+				<ftc:CorrMessageRefId/>
+				<ftc:CorrDocRefId/>
+			</ftc:DocSpec>
+		</ftc:ReportingFI>
+		<ftc:ReportingGroup>
+			<ftc:Sponsor>
+				<sfa:ResCountryCode>CA</sfa:ResCountryCode>
+				<sfa:TIN issuedBy="US">123456789</sfa:TIN>
+				<sfa:Name>Org Name</sfa:Name>
+				<sfa:Address>
+					<sfa:CountryCode>US</sfa:CountryCode>
+					<sfa:AddressFix>
+						<sfa:Street>123 Street</sfa:Street>
+						<sfa:BuildingIdentifier/>
+						<sfa:SuiteIdentifier/>
+						<sfa:FloorIdentifier/>
+						<sfa:DistrictName/>
+						<sfa:POB/>
+						<sfa:PostCode>75244</sfa:PostCode>
+						<sfa:City>City</sfa:City>
+						<sfa:CountrySubentity>US</sfa:CountrySubentity>
+					</sfa:AddressFix>
+					<sfa:AddressFree>123 Address City, State, Zip, Country</sfa:AddressFree>
+				</sfa:Address>
+				<ftc:DocSpec>
+					<ftc:DocTypeIndic>FATCA11</ftc:DocTypeIndic>
+					<ftc:DocRefId>Ref ID123</ftc:DocRefId>
+					<ftc:CorrMessageRefId/>
+					<ftc:CorrDocRefId/>
+				</ftc:DocSpec>
+			</ftc:Sponsor>
+			<ftc:Intermediary>
+				<sfa:ResCountryCode>CA</sfa:ResCountryCode>
+				<sfa:TIN issuedBy="US">123456789</sfa:TIN>
+				<sfa:Name>Org Name</sfa:Name>
+				<sfa:Address>
+					<sfa:CountryCode>US</sfa:CountryCode>
+					<sfa:AddressFix>
+						<sfa:Street>123 Street</sfa:Street>
+						<sfa:BuildingIdentifier/>
+						<sfa:SuiteIdentifier/>
+						<sfa:FloorIdentifier/>
+						<sfa:DistrictName/>
+						<sfa:POB/>
+						<sfa:PostCode>75244</sfa:PostCode>
+						<sfa:City>City</sfa:City>
+						<sfa:CountrySubentity>US</sfa:CountrySubentity>
+					</sfa:AddressFix>
+					<sfa:AddressFree>123 Address City, State, Zip, Country</sfa:AddressFree>
+				</sfa:Address>
+				<ftc:DocSpec>
+					<ftc:DocTypeIndic>FATCA11</ftc:DocTypeIndic>
+					<ftc:DocRefId>Ref ID123</ftc:DocRefId>
+					<ftc:CorrMessageRefId/>
+					<ftc:CorrDocRefId/>
+				</ftc:DocSpec>
+			</ftc:Intermediary>
+			<ftc:AccountReport>
+				<ftc:DocSpec>
+					<ftc:DocTypeIndic>FATCA11</ftc:DocTypeIndic>
+					<ftc:DocRefId>Ref ID234</ftc:DocRefId>
+					<ftc:CorrMessageRefId/>
+					<ftc:CorrDocRefId/>
+				</ftc:DocSpec>
+				<ftc:AccountNumber>ABCD12345</ftc:AccountNumber>
+				<ftc:AccountHolder>
+					<ftc:Individual>
+						<sfa:ResCountryCode>CA</sfa:ResCountryCode>
+						<sfa:TIN issuedBy="US">123456789</sfa:TIN>
+						<sfa:Name>
+							<sfa:PrecedingTitle/>
+							<sfa:Title/>
+							<sfa:FirstName>John</sfa:FirstName>
+							<sfa:MiddleName>Peter</sfa:MiddleName>
+							<sfa:NamePrefix/>
+							<sfa:LastName>Smith</sfa:LastName>
+							<sfa:GenerationIdentifier/>
+							<sfa:Suffix/>
+							<sfa:GeneralSuffix/>
+						</sfa:Name>
+						<sfa:Address>
+							<sfa:CountryCode>US</sfa:CountryCode>
+							<sfa:AddressFix>
+								<sfa:Street>234 Street</sfa:Street>
+								<sfa:BuildingIdentifier/>
+								<sfa:SuiteIdentifier/>
+								<sfa:FloorIdentifier/>
+								<sfa:DistrictName/>
+								<sfa:POB/>
+								<sfa:PostCode>75244</sfa:PostCode>
+								<sfa:City>City</sfa:City>
+								<sfa:CountrySubentity>US</sfa:CountrySubentity>
+							</sfa:AddressFix>
+							<sfa:AddressFree>234 Address City, State, Zip, Country</sfa:AddressFree>
+						</sfa:Address>
+						<sfa:BirthInfo>
+							<sfa:BirthDate>1960-01-01</sfa:BirthDate>
+							<sfa:City/>
+							<sfa:CitySubentity/>
+						</sfa:BirthInfo>
+					</ftc:Individual>
+				</ftc:AccountHolder>
+				<ftc:SubstantialOwner>
+					<sfa:ResCountryCode>CA</sfa:ResCountryCode>
+					<sfa:TIN issuedBy="US">123456789</sfa:TIN>
+					<sfa:Name>
+						<sfa:PrecedingTitle/>
+						<sfa:Title/>
+						<sfa:FirstName>John</sfa:FirstName>
+						<sfa:MiddleName>Peter</sfa:MiddleName>
+						<sfa:NamePrefix/>
+						<sfa:LastName>Smith</sfa:LastName>
+						<sfa:GenerationIdentifier/>
+						<sfa:Suffix/>
+						<sfa:GeneralSuffix/>
+					</sfa:Name>
+					<sfa:Address>
+						<sfa:CountryCode>US</sfa:CountryCode>
+						<sfa:AddressFix>
+							<sfa:Street>234 Street</sfa:Street>
+							<sfa:BuildingIdentifier/>
+							<sfa:SuiteIdentifier/>
+							<sfa:FloorIdentifier/>
+							<sfa:DistrictName/>
+							<sfa:POB/>
+							<sfa:PostCode>75244</sfa:PostCode>
+							<sfa:City>City</sfa:City>
+							<sfa:CountrySubentity>US</sfa:CountrySubentity>
+						</sfa:AddressFix>
+						<sfa:AddressFree>234 Address City, State, Zip, Country</sfa:AddressFree>
+					</sfa:Address>
+					<sfa:BirthInfo>
+						<sfa:BirthDate>1960-01-01</sfa:BirthDate>
+						<sfa:City/>
+						<sfa:CitySubentity/>
+					</sfa:BirthInfo>
+				</ftc:SubstantialOwner>
+				<ftc:AccountBalance currCode="USD">1000.00</ftc:AccountBalance>
+				<ftc:Payment>
+					<ftc:Type>FATCA504</ftc:Type>
+					<ftc:PaymentAmnt currCode="USD">1500.00</ftc:PaymentAmnt>
+				</ftc:Payment>
+			</ftc:AccountReport>
+			<ftc:PoolReport>
+				<ftc:DocSpec>
+					<ftc:DocTypeIndic>FATCA11</ftc:DocTypeIndic>
+					<ftc:DocRefId>Ref ID234</ftc:DocRefId>
+					<ftc:CorrMessageRefId/>
+					<ftc:CorrDocRefId/>
+				</ftc:DocSpec>
+				<ftc:AccountCount>1</ftc:AccountCount>
+				<ftc:AccountPoolReportType>FATCA201</ftc:AccountPoolReportType>
+				<ftc:PoolBalance currCode="USD">1500.00</ftc:PoolBalance>
+			</ftc:PoolReport>
+		</ftc:ReportingGroup>
+	</ftc:FATCA>
+</ftc:FATCA_OECD></Object></Signature>
